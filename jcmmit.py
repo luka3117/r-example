@@ -8,3 +8,4 @@ version=input("aa=:")
 
 os.system("git add . ")
 os.system("git commit -m"+""+version)
+os.system("git push")
