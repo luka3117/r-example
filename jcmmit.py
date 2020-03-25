@@ -4,8 +4,8 @@ import re
 import sys
 
 
-version=input("aa=:")
+commit_message=input("コミット入力")
 
 os.system("git add . ")
-os.system("git commit -m"+""+version)
+os.system("git commit -m"+""+commit_message)
 os.system("git push")
